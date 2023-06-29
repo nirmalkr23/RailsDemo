@@ -1,0 +1,13 @@
+
+
+<h1>hi i am <%= @name %> <h1>
+<h2> i am learning <%= @Framework %> <h2>
+</#create link in 4 ways>
+<%= link_to 'signup' ,signup_path%>
+<%= link_to 'signup' ,controller: :pages,action: :sign_up%>
+<%=link_to 'signup','/signup'%>
+<%=link_to nil ,signup_path%>
+
+<!-- Your view content here -->
+
+
