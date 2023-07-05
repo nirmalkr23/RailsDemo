@@ -5,11 +5,8 @@ class CreateEmployees < ActiveRecord::Migration[7.0]
       t.string :last_name
       t.string :email
       t.string :dob
-      t.string :city
-      t.string :state
-      t.string :country
-      t.string :pincode
-      t.string :password
+      t.string :gender
+      t.string :phone_number
       t.timestamps
     end
   end

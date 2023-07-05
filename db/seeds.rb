@@ -6,15 +6,11 @@
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
 employee=Employee.new(
-    first_name:  'PANKAJ',
+    first_name:  'kishan',
     last_name: 'RAMANI',
     dob: '23/03/1998',
-    email: 'nirmal2@gmail.com',
-    city: 'ghitorni',
-    state: 'new delhi',
-    country:'india',
-    pincode: '110030',
-    password: 'nnn111@',
-    confirm_password: 'nnn111@'
+    email: 'kishan2@gmail.com',
+    gender: 'Male',
+    phone_number: '7992326324'
     
 )
